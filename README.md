@@ -6,7 +6,7 @@ by using a up-down-left-right key to control your square (<font color="black">â–
 
 ** warning **
 
-this code isn't complete yet. It can't detect the wall and show message after you hit your goal
+this program isn't complete yet. It can't detect the wall 
 
 <br>
 <br>

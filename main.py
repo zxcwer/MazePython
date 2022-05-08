@@ -13,17 +13,20 @@ path = [((0,400),(200,30)),((200,400),(30,200)),((200,600),(300,30)),((500,200),
 run = True
 
 clock = pygame.time.Clock()
+font = pygame.font.Font(None,60)
 while run:
 	for event in pygame.event.get():
 		if event.type ==pygame.QUIT:
 			pygame.quit()
 			sys.exit()
 	
-	if (x1-615)**2+(y1-130)**2<=100:
-		print("you won")
+
 
 
 	screen.blit(bg,(0,0))
+	if (x1-615)**2+(y1-130)**2<=100:
+		msg = font.render("You Won",1,(255,255,0))
+		screen.blit(msg,(300,100))
 	for x in path:
 		pygame.draw.rect(screen,(255,255,255),x)
 
