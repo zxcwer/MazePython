@@ -4,7 +4,7 @@ Using pygame for making a Maze game
 ## gameplay
 by using a up-down-left-right key to control your square (<font color="black">□</font>) to the destination (<font color="red">●</font>)
 
-** warning 
+** warning **
 
 this code isn't complete yet. It can't detect the wall and show message after you hit your goal
 
