@@ -8,6 +8,8 @@ by using a up-down-left-right key to control your square (<font color="black">â–
 
 this code isn't complete yet. It can't detect the wall and show message after you hit your goal
 
+<br>
+<br>
 <u> **Reference** </u>
 
 <a href="https://www.youtube.com/watch?v=XkSFveHx18g" target = "_blank" rel="noopener noreferrer" >made a maze game in python using pygame for beginners</a>
